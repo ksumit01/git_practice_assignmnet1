@@ -8,4 +8,12 @@ function identifyPrime(num) {
         }
     }
     // if else part is missing, rectify it
+	
+//rectified in ten new branch(mem1_code_fix) as Member 1	
+ if(flag){
+        console.log("No")
+    }
+    else{
+        console.log("Yes")
+    }
 }
