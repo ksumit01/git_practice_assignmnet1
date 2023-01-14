@@ -6,8 +6,11 @@ function identifyPrime(num) {
             count++;
         }
     }
+
+
 if(count == 2){
 return true;
+
 }
 else {
  return	false;
@@ -20,3 +23,6 @@ if(result){
 else{
   console.log("not a prime ")
 }
+
+//conflict resolved
+// m2 code is better
