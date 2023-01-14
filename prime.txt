@@ -1,19 +1,28 @@
 function identifyPrime(num) {
     // Write code here
-    // let count =0;
-    let flag = false
-    for(let i =2; i<=num-1; i++){
+    let count =0;
+        for(let i = 1; i<=num; i++){
         if(num%i==0){
-            flag = true;
+            count++;
         }
     }
-    // if else part is missing, rectify it
-	
-//rectified in ten new branch(mem1_code_fix) as Member 1	
- if(flag){
-        console.log("No")
-    }
-    else{
-        console.log("Yes")
-    }
+
+
+if(count == 2){
+return true;
+
 }
+else {
+ return	false;
+}
+}
+let result = identifyPrime(13);
+if(result){
+  console.log("prime")
+}
+else{
+  console.log("not a prime ")
+}
+
+//conflict resolved
+// m2 code is better
